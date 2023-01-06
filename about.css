@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+input:focus {
+    outline:none
+}
+
+body {
+    position: relative;
+}
+
+.title a {
+    color: white;
+}
+
+a.about {
+    color: #fee140;
+}
+
+.emko {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    color: white;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    padding: 2rem;
+    border-bottom: 2px solid greenyellow;
+}
+
+.emko h1 {
+    font-size: 1.4rem;
+}
+
+.emko span {
+    color: #fee140;
+}
+
+.services,
+.home {
+    color: white;
+}
+
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.right input {
+    padding: 0.5rem;
+    border: none;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: white;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    align-items: center;
+}
+
+.right button {
+    padding: 0.5rem;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+  }
+
+  .right button:hover {
+    cursor: pointer;
+    background-color: #fee140;
+  }
+
+  .main-box h4 {
+    margin-bottom: 14px;
+    margin-top: 5px;
+  }
+
+  .main-box .left {
+    flex-basis: 65%;
+  }
+
+  .main-box .right {
+    flex-basis: 30%;
+    color: white;
+    padding: 1.8rem;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  }
+
+  article.left p.p1 {
+    padding: 1rem;
+    color: white;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    margin-top: 15px;
+  }
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #a10b60;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    padding: 1rem;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  footer p {
+    color: white;
+    margin-top: 0.9rem;
+  }
